@@ -58,6 +58,7 @@
 	var Main = __webpack_require__(229);
 	var Weather = __webpack_require__(231);
 	var About = __webpack_require__(232);
+	var Examples = __webpack_require__(233);
 
 	// JSX Code --> JS XML
 	ReactDOM.render(React.createElement(
@@ -67,6 +68,7 @@
 			Route,
 			{ path: '/', component: Main },
 			React.createElement(Route, { path: 'about', component: About }),
+			React.createElement(Route, { path: 'examples', component: Examples }),
 			React.createElement(IndexRoute, { component: Weather })
 		)
 	), document.getElementById('app'));
@@ -25464,6 +25466,11 @@
 					Link,
 					{ to: '/about' },
 					'About'
+				),
+				React.createElement(
+					Link,
+					{ to: '/examples' },
+					'Examples'
 				)
 			);
 		}
@@ -25514,6 +25521,28 @@
 	});
 
 	module.exports = About;
+
+/***/ },
+/* 233 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var React = __webpack_require__(1);
+
+	var Examples = React.createClass({
+		displayName: 'Examples',
+
+		render: function render() {
+			return React.createElement(
+				'h3',
+				null,
+				'Examples Component'
+			);
+		}
+	});
+
+	module.exports = Examples;
 
 /***/ }
 /******/ ]);
