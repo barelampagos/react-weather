@@ -14,7 +14,9 @@ module.exports = {
 			Nav: 'app/components/Nav.jsx',
 			Weather: 'app/components/Weather.jsx',
 			About: 'app/components/About.jsx',
-			Examples: 'app/components/Examples.jsx'
+			Examples: 'app/components/Examples.jsx',
+			WeatherForm: 'app/components/WeatherForm.jsx',
+			WeatherMessage: 'app/components/WeatherMessage.jsx'
 		},
 		// List of file extensions we should be able to process
 		extensions: ['', '.js', '.jsx']
