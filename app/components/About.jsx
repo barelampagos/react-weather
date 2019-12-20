@@ -5,8 +5,11 @@ var React = require('react');
 var About = props => {
 	return (
 		<div>
-			<h3>About</h3>
-			<p>Welcome to About Page</p>
+			<h1 className='text-center'>About</h1>
+			<p>
+				Welcome to the React Weather App! This is a learning project for React &
+				Foundation, and utilizes the Open Weather Map API.
+			</p>
 		</div>
 	);
 };
