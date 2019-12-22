@@ -32,7 +32,7 @@ module.exports = {
 			openWeatherMap: 'app/api/openWeatherMap.jsx',
 			auth: 'app/api/auth.jsx',
 			ErrorModal: 'app/components/ErrorModal.jsx',
-			applicationStyles: 'app/styles/app.css'
+			applicationStyles: 'app/styles/app.scss'
 		},
 		// List of file extensions we should be able to process
 		extensions: ['', '.js', '.jsx']
